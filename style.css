@@ -1,47 +1,48 @@
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
-    font-size: 16px;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: rgb(122, 128, 128);
+body {
+  font-size: 16px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(122, 128, 128);
 }
 .main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-.form , #tasks {
-    width: 300px;
-    padding: 15px;
-    background-color: antiquewhite;
-    border-radius: 4px;
-    margin-bottom: 20px;
+.form,
+.task {
+  width: 300px;
+  padding: 15px;
+  background-color: antiquewhite;
+  border-radius: 4px;
+  margin-bottom: 20px;
 }
 .text {
-    width: 85%;
-    padding: 4px;
+  width: 85%;
+  padding: 4px;
 }
 
 .btn {
-    width: 10%;
-    padding: 4px;
-    transition: all 0.5secs;
+  width: 10%;
+  padding: 4px;
+  transition: all 0.5s;
 }
 
 .btn:hover {
-    cursor: pointer;
-    transform: scale(1.2);
+  cursor: pointer;
+  transform: scale(1.2);
 }
 
 .task {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
 }
